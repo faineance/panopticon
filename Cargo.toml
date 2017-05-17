@@ -8,10 +8,6 @@ name = "panopticon"
 path = "lib/src/lib.rs"
 test = true
 
-[[bin]]
-name = "qtpanopticon"
-path = "qt/src/main.rs"
-
 [dependencies]
 log = "0.3.6"
 env_logger = "0.3"
@@ -33,9 +29,6 @@ quickcheck = "0.3"
 
 [dev-dependencies]
 regex = "0.1"
-
-[dependencies.qmlrs]
-git = "https://github.com/flanfly/qmlrs"
 
 [dependencies.graph_algos]
 git = "https://github.com/flanfly/rust-graph-algos.git"
